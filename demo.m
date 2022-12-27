@@ -9,7 +9,7 @@
 clear all;
 close all;
 
-dry_run = false;    % dry_run = true: local computer; dry_run = false: cluster run
+dry_run = true;    % dry_run = true: local computer; dry_run = false: cluster run
 
 if ~dry_run
     % Change working directory to SDPNAL+ (good for xhchen's account: should be customized)
